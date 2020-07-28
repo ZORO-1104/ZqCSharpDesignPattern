@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <Folder Include="CreationalPattern\A0501_PrototypePattern\" />
-    <Folder Include="StructuralPattern\" />
   </ItemGroup>
 
 </Project>
