@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ZqCSharpDesignPattern.CreationalPattern.A0301_AbstractFactory
 {
-    class A0301AbstractFactory : CodeFramework
+    internal class A0301AbstractFactory : CodeFramework
     {
         protected override void RunCode()
         {
@@ -17,7 +17,7 @@ namespace ZqCSharpDesignPattern.CreationalPattern.A0301_AbstractFactory
             AbstractAnimal absAni = null;
             AbstractPlant absPla = null;
 
-            absFar = new HebeiFarm();
+            //absFar = new HebeiFarm();
             absFar = new LiaoNingFarm();
 
             absAni = absFar.CreateAnimal();
